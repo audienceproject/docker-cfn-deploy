@@ -1,5 +1,5 @@
 FROM node:8
 
-yarn install -g @apr/cfn-deploy
+RUN yarn global add @apr/cfn-deploy
 
 ENTRYPOINT "cfn-deploy"
